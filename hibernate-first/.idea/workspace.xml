@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="116c1e79-e8a2-40f5-84ad-e7f0d91bee41" name="Changes" comment="established connection and created session factory" />
+    <list default="true" id="116c1e79-e8a2-40f5-84ad-e7f0d91bee41" name="Changes" comment="established connection and created session factory">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/levitsky/HibernateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/levitsky/HibernateRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680712320302</updated>
       <workItem from="1680712321483" duration="3100000" />
-      <workItem from="1680722820127" duration="598000" />
+      <workItem from="1680722820127" duration="4812000" />
     </task>
     <task id="LOCAL-00001" summary="established connection and created session factory">
       <created>1680722207691</created>
