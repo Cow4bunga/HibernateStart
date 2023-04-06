@@ -8,7 +8,13 @@
     <property name="connection.username">postgres</property>
     <property name="connection.password">wario_123_1452</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
+    
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+    <property name="hibernate.show_sql">true</property>
+
+<!--    here we assign mapping (which class we should use)-->
+    <mapping class="by.levitsky.entity.User"/>
+    <mapping class="by.levitsky.entity.Users"/>
 
 
     <!-- DB schema will be updated if needed -->

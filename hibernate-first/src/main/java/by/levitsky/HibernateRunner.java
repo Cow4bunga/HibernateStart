@@ -23,20 +23,22 @@ public class HibernateRunner {
         configuration.configure();
 
         try (SessionFactory sessionFactory = configuration.buildSessionFactory();
-             Session session = sessionFactory.openSession()) {
+             Session session = sessionFactory.openSession()){
+
             System.out.println("SESSION HAS BEEN OPENED");
 
             session.beginTransaction();
-            User user= User.builder().
-                    username("numerocinco").
+            User user = User.builder().
+                    username("honorable_mention").
+                    firstname("Enko").
+                    lastname("Makar").
                     age(20).
-                    firstname("Ivan").
-                    lastname("Levitsky").
-                    birthDate(LocalDate.of(2003,2,10)).
                     build();
 
-            session.persist(user);
+            session.save(user);
             session.getTransaction().commit();
+
+            System.out.println("SESSION HAS BEEN CLOSED");
         }
 
 
