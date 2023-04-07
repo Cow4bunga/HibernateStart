@@ -1,11 +1,14 @@
 package by.levitsky;
 
 import by.levitsky.entity.Users;
+import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 import org.hibernate.Session;
 
 import java.sql.Date;
 import java.time.LocalDate;
 
+@Log4j2
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");

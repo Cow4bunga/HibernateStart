@@ -1,0 +1,32 @@
+[INFO ] 07-04-2023 12:48:16.143 [main] Version - HHH000412: Hibernate ORM core version 6.2.0.Final
+[INFO ] 07-04-2023 12:48:16.147 [main] Environment - HHH000406: Using bytecode reflection optimizer
+[WARN ] 07-04-2023 12:48:16.545 [main] pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO ] 07-04-2023 12:48:16.548 [main] pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[INFO ] 07-04-2023 12:48:16.549 [main] pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+[INFO ] 07-04-2023 12:48:16.549 [main] pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+[INFO ] 07-04-2023 12:48:16.549 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 07-04-2023 12:48:16.552 [main] pooling - HHH10001115: Connection pool size: 20 (min=1)
+[INFO ] 07-04-2023 12:48:16.824 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[WARN ] 07-04-2023 12:48:16.826 [main] deprecation - HHH90000026: PostgreSQL10Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+[INFO ] 07-04-2023 12:48:17.088 [main] BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+[INFO ] 07-04-2023 12:48:17.978 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 07-04-2023 12:48:18.063 [main] SQL - 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.age,
+        u1_0.firstname,
+        u1_0.lastname,
+        u1_0.username 
+    [34mfrom[0m
+        public.users u1_0 
+    [34mwhere[0m
+        u1_0.id=?
+[DEBUG] 07-04-2023 12:48:18.167 [main] SQL - 
+    [34mselect[0m
+        u1_0.id,
+        u1_0.age,
+        u1_0.firstname,
+        u1_0.lastname,
+        u1_0.username 
+    [34mfrom[0m
+        public.users u1_0

@@ -1,6 +1,7 @@
 package by.levitsky;
 
 import by.levitsky.entity.User;
+import lombok.extern.log4j.Log4j2;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
@@ -9,6 +10,7 @@ import org.hibernate.cfg.Configuration;
 import java.sql.SQLException;
 import java.time.LocalDate;
 
+@Log4j2
 public class HibernateRunner {
     public static void main(String[] args) throws SQLException {
 //        BlockingDeque<Connection> pool = null;
