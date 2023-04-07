@@ -14,9 +14,9 @@ public class Main {
 
         // create new user
         Users users=new Users();
-        users.setUsername("Kingslayer");
-        users.setFirstname("Vitali");
-        users.setLastname("Tsal");
+        users.setUsername("Amogus");
+        users.setFirstname("Valeri");
+        users.setLastname("Zmyshenko");
         users.setAge(20);
         session.save(users);
 
